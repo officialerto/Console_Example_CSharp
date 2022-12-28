@@ -40,18 +40,25 @@ namespace Example
 
 
     //-----------------------------------------------------------------------------------------------------------------------------------------
+    //Call the function take max value. Only positive!!!
 
     //public class Program
     //{
-    //    int[] array = new int[] { 122, 5, 2, 16, -5 };
+    //    int[] array = new int[] { -122, -25, 2, -16, -5 };
 
     //    public void callarray()
     //    {
     //        int max = array.Max();
-    //        Console.WriteLine(max);
+    //        if (max>0)
+    //        {
+    //            Console.WriteLine(max);
+    //        }
+    //        else
+    //        {
+    //            Console.Write("Unfortunately, It isnt positive!");
+    //        }
+
     //    }
-
-
     //    public static void Main(string[] args)
     //    {
     //        Program p = new Program();
@@ -89,22 +96,22 @@ namespace Example
 
     //------------------------------------------------------------------------------------------------------------------------------------------------
 
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
+    //public class Program
+    //{
+    //    public static void Main(string[] args)
+    //    {
 
-            int[] array = { 1, 5, 77, 43, 23 };
-            Console.WriteLine(string.Join("\t", array));
+    //        int[] array = { 1, 5, 77, 43, 23 };
+    //        Console.WriteLine(string.Join("\t", array));
 
-            int max = array.Max();
+    //        int max = array.Max();
 
-            foreach (int x in array)
-            {
-                int mltp = max - x;
-                Console.Write(string.Join("   ", mltp,"   "));
-            }
+    //        foreach (int x in array)
+    //        {
+    //            int mltp = max - x;
+    //            Console.Write(string.Join("   ", mltp,"   "));
+    //        }
 
-        }
-    }
+    //    }
+    //}
 }
